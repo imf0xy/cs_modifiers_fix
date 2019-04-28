@@ -1,0 +1,13 @@
+{
+	"name" : "f0xy's cs modifier fix",
+	"description" : "stops your game from crashing when creating high crime spree lobbies",
+	"author" : "f0xy",
+
+	"hooks" : [
+	{ 	
+		"hook_id" : "lib/tweak_data/crimespreetweakdata",
+		"script_path" : "csmf.lua"
+	}
+]
+	
+}
